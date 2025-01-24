@@ -17,3 +17,6 @@ function calsulate(){
     }
     
 }
+function deleteOnebyone(){
+    display.value = display.value.toString().slice(0, -1);
+}

@@ -19,3 +19,7 @@ function Solve(input) {
   display.value /= input;
 }
 
+
+function deleteOnebyone(){
+    display.value = display.value.toString().slice(0, -1);
+}

@@ -4,11 +4,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);}
     justify-items: center;
 }
 #calcuator{
-    padding: 40px;
-    background-color: hsl(0, 0%, 10%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;

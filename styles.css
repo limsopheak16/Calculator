@@ -1,10 +1,10 @@
-#body{
+body{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+    background: linear-gradient(#e66465, #9198e5);}
 #calculator{
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;

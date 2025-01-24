@@ -5,26 +5,28 @@ body{
     align-items: center;
     height: 100vh;
     background: linear-gradient(#e66465, #9198e5);}
-#calculator{
-    background-color: hsl(0, 0%, 15%);
+    justify-items: center;
+}
+#calcuator{
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
 }
 #display{
     width: 100%;
-    padding: 20px;
-    font-size: 5rem;
+    height: 100px;
+    font-size: 3rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
 #keys{
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 120px);
     gap: 10px;
-    padding: 25px;
+    
 }
 button{
     width: 100px;
@@ -52,3 +54,23 @@ button:active{
 .oprator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+@media (max-width: 600px) {
+    #calcuator {
+        width: 100%; 
+        padding: 10px;
+    }
+    #display {
+        font-size: 24px; 
+        height: 60px;
+    }
+    button {
+        height: 60px; 
+        font-size: 24px;
+    }
+    #keys {
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 5px;
+    }
+}
+
+

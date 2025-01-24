@@ -4,10 +4,6 @@ function appendTodisplay(input){
     display.value += input;
 }
 
-function clearDisplay(){
-    display.value = "";
-}
-
 function calsulate(){
     try{
         display.value = eval(display.value);
@@ -17,6 +13,13 @@ function calsulate(){
     }
     
 }
+
+
+function clearDisplay(){
+    display.value = "";
+}
+
+
 function deleteOnebyone(){
     display.value = display.value.toString().slice(0, -1);
 }

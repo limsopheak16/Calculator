@@ -14,7 +14,12 @@ function calsulate(){
     
 }
 
+
 function clearDisplay(){
     display.value = "";
 }
 
+
+function deleteOnebyone(){
+    display.value = display.value.toString().slice(0, -1);
+}
